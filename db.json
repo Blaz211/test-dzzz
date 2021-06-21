@@ -1,33 +1,65 @@
 {
-   "menus":[
-      {
-         "naslov":"Ena",
-         "url":"/ena"
+
+  
+   "nav": 
+
+[
+    {
+        "title":"BAZA ZNANJA",
+        "dropdown": [
+          { "content": "Splošno"}
+          { "content": "Zakonodaja"}
+          { "content": "Hišni ljubljenčki"}
+          { "content": "Rejne živali"}
+          { "content": "Divje živali"}
+          { "content": "Rejne živali"}
+          { "content": "Za otroke"}
+          ]
       },
       {
-         "naslov":"Dva",
-         "url":"/dva"
+        "title":"O PRIJAVAH MUČENJA",
+        "dropdown": [
+          { "content": "Potek prijave"}
+          ]
       },
       {
-         "naslov":"Tri",
-         "url":"/tri"
+       "title":"KAKO LAHKO POMAGAM",
+        "dropdown": [
+          { "content": "Prostovoljska pomoč"}
+          { "content": "Finančna podpora"}
+          { "content": "Spletna trgovina in stojnice"}
+          { "content": "Izbira načina življenja"}
+          { "content": "Dohodnina"}
+          { "content": "Zoohit trgovina"}
+          { "content": "Zbianje papirja"}
+          { "content": "Želiš izobraževati tudi ti?"}
+          ]
+      }, {
+        "title":"NOVICE"
       }
-   ],
-   "items":[
-      {
-         "slika":"img/koledar.png",
-         "naslov":"Dogodki in izobraževanja",
-         "besedilo":"Lepo vabljeni v našo družbo! Poglejte, kje in kdaj se lahko srečamo v živo."
-      },
-      {
-         "slika":"img/knjiga.png",
-         "naslov":"Koristna vsebina",
-         "besedilo":"Živalim lahko resnično pomagamo le, če imamo prave informacije."
-      },
-      {
-         "slika":"img/klicaj.png",
-         "naslov":"Prijave mučenja",
-         "besedilo":"Ne obrnite se stran! Preberite, kako ravnati, če opazite mučenje ali zanemarjanje živali."
-      }
-   ]
+    ]
+,
+  
+  
+  "items": 
+
+[
+  {
+    "slika":"img/koledar.png",
+    "naslov":"Dogodki in izobraževanja",
+    "besedilo":"Lepo vabljeni v našo družbo! Poglejte, kje in kdaj se lahko srečamo v živo."
+  },
+  {
+    "slika":"img/knjiga.png",
+    "naslov":"Koristna vsebina",
+    "besedilo":"Živalim lahko resnično pomagamo le, če imamo prave informacije."
+  },
+  {
+    "slika":"img/klicaj.png",
+    "naslov":"Prijave mučenja",
+    "besedilo":"Ne obrnite se stran! Preberite, kako ravnati, če opazite mučenje ali zanemarjanje živali."
+  }
+]
+
+
 }
